@@ -1,0 +1,15 @@
+
+.loader {
+  animation: glow 0.5s ease-in-out infinite alternate;
+  border-radius: 2px;
+  height: 15px;
+}
+
+@keyframes glow {
+  from {
+    background: #212529;
+  }
+  to {
+    background: #363c42;
+  }
+}
